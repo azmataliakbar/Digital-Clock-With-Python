@@ -8,7 +8,13 @@ st.set_page_config(page_title="Digital Clock", page_icon="⏰")
 # CSS styles for colorful text
 st.markdown("""
     <style>
-    .title {
+    .title1 {
+        color: #1E90FF;  /* Bright yellow for title */
+        font-size: 36px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .title2 {
         color: #FFFF00;  /* Bright yellow for title */
         font-size: 36px;
         font-weight: bold;
@@ -40,8 +46,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Display title at the top
-st.markdown("<div class='title'>🐍 Learn Python 🐍</div>", unsafe_allow_html=True)
-st.markdown("<div class='title'>🕒 Digital Clock 🕒</div>", unsafe_allow_html=True)
+st.markdown("<div class='title1'>🐍 Learn Python 🐍</div>", unsafe_allow_html=True)
+st.markdown("<div class='title2'>🕒 Digital Clock 🕒</div>", unsafe_allow_html=True)
 
 # Create a placeholder for the clock
 clock_placeholder = st.empty()
