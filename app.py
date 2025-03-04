@@ -8,6 +8,10 @@ st.set_page_config(page_title="Digital Clock", page_icon="⏰")
 # CSS styles for colorful text
 st.markdown("""
     <style>
+    body {
+        background-color: #0E1117 !important;
+        
+    }
     .title1 {
         color: #1E90FF;  /* Bright yellow for title */
         font-size: 36px;
