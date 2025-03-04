@@ -15,7 +15,7 @@ st.markdown("""
         text-align: center;
     }
     .title2 {
-        color: #FFFF00;  /* Bright yellow for title */
+        color: #fc03fc;
         font-size: 36px;
         font-weight: bold;
         text-align: center;
